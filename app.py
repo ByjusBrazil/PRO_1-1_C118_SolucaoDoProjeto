@@ -41,6 +41,7 @@ def save():
 
     # criando uma variável final separada por vírgulas
     data_entry = date + "," + product + "," + review + "," + sentiment
+    
 
     # abra o arquivo no modo 'append'
     f = open('./static/assets/datafiles/data_entry.csv' , 'a')
